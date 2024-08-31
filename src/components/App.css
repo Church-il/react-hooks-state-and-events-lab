@@ -1,0 +1,95 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  margin: 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #f33610;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+.App.light {
+  background-color: #ffffff1f;
+  color: #000;
+}
+
+.App.dark {
+  background-color: #333;
+  color: #10f504;
+}
+
+/* ShoppingList styles */
+.ShoppingList {
+  padding: 1rem;
+}
+
+.Filter {
+  margin-bottom: 1rem;
+}
+
+select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Item styles */
+.Items {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+li.in-cart {
+  text-decoration: line-through;
+  background-color: #18de99;
+}
+
+.category {
+  font-style: italic;
+  color: #6c757d;
+}
+
+button.add {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+}
+
+button.add:hover {
+  background-color: #218838;
+}
